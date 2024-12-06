@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G984B57MES"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G984B57MES');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamecocks Gridiron - Your Source for SEC Football Scores & Updates</title>
+    <meta name="description" content="Stay updated with Gamecocks Gridiron! Get the latest SEC football news, live scores, stats, and more on South Carolina's Gamecocks." />
+    <meta name="keywords" content="Gamecocks, SEC football, South Carolina, Gamecocks scores, college football news, live scores, Gamecocks updates" />
+    <meta name="author" content="Gamecocks Gridiron Team" />
+    <link rel="stylesheet" href="styles2.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- Header Section -->
+   <header>
+    <div class="top-bar">
+        <p id="current-date"></p>
+        <p>Columbia 51°F</p>
+    </div>
+    <div class="header-content">
+        <h1>Gamecocks Gridiron</h1>
+        <div class="subscribe-login">
+            <button>Subscribe</button>
+            <button>Login</button>
+        </div>
+    </div>
+</header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="newspage.html">News</a></li>
+            <li><a href="statspage.html">Stats</a></li>
+            <li><a href="contactpage.html">Newsletter</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="slider-image">
+            <img src="Beamer.png" alt="Coach Beamer Post Game">
+            <div class="slider-text">
+                <h2>Gamecocks Beat Clemson 17-14 in Thrilling Rivalry Game</h3>
+                    <p>Football | 12/02/2024</p>
+                    <p>👁️ 18,200 💬 980</p>
+                    
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+        </div>
+    </section>
+
+   <!-- Highlight Section -->
+<section class="highlight-section">
+    <div class="highlight-card">Gamecocks Celebrate Rivalry Victory Over Clemson with Fans</div>
+    <div class="highlight-card">South Carolina Hosts Top Recruits During Win Over Missouri</div>
+    <div class="highlight-card">Gamecocks’ Defense Shines in Win Against Wofford</div>
+</section>
+
+
+    <!-- Latest News Section -->
+<section class="latest-news">
+    <h2>Latest News ➔</h2>
+    <div class="news-grid">
+        <div class="news-card">
+            <h3>Best Quotes From Players Following Win Over Clemson</h2>
+                <p>Football | 12/01/2024</p>
+                <p>👁️ 15,500 💬 180</p>
+        </div>
+        <div class="news-card injury-report">
+            <h3>Injury Report Following Victory Over Clemson</h3>
+            <p>Football | 12/02/2024</p>
+            <p>👁️ 3,050 💬 200</p>
+        </div>
+        <div class="news-card">
+            <h3>Gamecocks Win 5th Straight on Senior Night</h3>
+            <p>Football | 11/18/2024</p>
+            <p>👁️ 12,500 💬 560</p>
+        </div>
+        <div class="news-card">
+            <h3>South Carolina Secures Win Over Missouri: Key Takeaways</h3>
+            <p>Football | 11/17/2024</p>
+            <p>👁️ 14,800 💬 750</p>
+        </div>
+        
+        
+    </div>
+</section>
+
+
+   <!-- Footer Section -->
+   <footer>
+    <div class="footer-links">
+        <a href="#">About</a> |
+        <a href="#">Contact Us</a> |
+        <a href="#">Career</a> |
+        <a href="#">Community Guidelines</a> |
+        <a href="#">Sitemap</a> |
+        <a href="#">Get Help</a>
+    </div>
+    <p>Copyright © 2024 Gamecocks Gridiron, Inc. All Rights Reserved.</p>
+    <p>Use of this website constitutes your acceptance of these <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/gamecockfb/?hl=en" target="_blank">
+            <img src="social1.png" alt="Instagram">
+        </a>
+        <a href="https://x.com/GamecockFB" target="_blank">
+            <img src="social2.png" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/GamecockFootball/" target="_blank">
+            <img src="social3.png" alt="Facebook">
+        </a>
+    </div>
+</footer>    
+
+ <!-- JavaScript -->
+<script>
+    // Function to fetch and display the current date
+    function updateDate() {
+        const dateElement = document.getElementById('current-date');
+        if (dateElement) {
+            const today = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = today.toLocaleDateString('en-US', options);
+        }
+    }
+
+    // Call updateDate on page load
+    window.onload = updateDate;
+</script>
+
